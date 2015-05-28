@@ -1,5 +1,7 @@
 # proguard-snippets
 
+Easy to apply proguard configurations for common Android libraries by AAR.
+
 [![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
 
 ## Installation
