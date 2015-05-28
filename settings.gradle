@@ -1,2 +1,2 @@
-include ':android-proguard-snippets'
-include ':android-proguard-snippets-app'
+include ':proguard-snippets'
+include ':proguard-snippets-app'
