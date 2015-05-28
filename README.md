@@ -1,5 +1,7 @@
 # android-proguard-snippets
 
+[![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
+
 ## Installation
 
 via jcenter
