@@ -1,36 +1,40 @@
-android-proguard-snippets
-==========================
+# android-proguard-snippets
 
-Example Proguard configurations for common Android libraries.
+## Installation
 
-This project assumes that your ProGuard configuration is based off of the latest official [proguard-android.txt](https://android.googlesource.com/platform/tools/base/+/HEAD/files/proguard-android.txt) config as shown below. Each library configuration should only be the rules required for that specific library, not a complete Android ProGuard configuration. The various library configurations are combined by the Gradle build system. The library rules should be universal, any app specific rules (such as preserving model classes) should be added in a custom `proguard-project.pro` file.
+via jcenter
 
-Request additional libraries through issues. Pull requests are welcome.
+```gradle
+repositories {
+    jcenter()
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android--proguard--snippets-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1242)
+}
 
-### Usage
-```groovy
-android {
-  buildTypes {
-    release {
-      minifyEnabled true
-      // Library specific proguard files
-      proguardFile 'proguard-google-play-services.pro'
-      proguardFile 'proguard-gson.pro'
-      ...
-      // Default proguard files & project app specific rules,
-      //  see examples folder for more information
-      proguardFile 'proguard-project-app.pro'
-      proguardFile getDefaultProguardFile('proguard-android.txt')
-      // As of Gradle Android plugin 1.1.0, the test APK has a separate config
-      testProguardFile 'proguard-project-test.pro'
-    }
-  }
+dependencies {
+    compile 'com.infstory:proguard-snippets:1.0.0'
 }
 ```
 
-### Libraries
+Or via jitpack.io
+
+```gradle
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compile 'com.github.yongjhih:proguard-snippets:1.0.0'
+}
+```
+
+## See Also
+
+* [krschultz/android-proguard-snippets](https://github.com/krschultz/android-proguard-snippets)
+
+## Libraries
+
 * [ACRA 4.5.0](https://github.com/ACRA/acra)
 * [ActionBarSherlock 4.4.0](http://actionbarsherlock.com/)
 * [ActiveAndroid](http://www.activeandroid.com/)

@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.2'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar' // minSdkVersion 7
+    compile 'com.android.support:support-v4:18.0.+'
+    compile 'com.google.android.gms:play-services:3.2.+' // minSdkVersion 8
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
+    compile 'ch.acra:acra:4.5.0'
+    compile 'de.greenrobot:eventbus:2.0.2'
+    compile project(':android-proguard-snippets')
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.0"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFile 'app.pro'
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            //testProguardFile 'test.pro'
+        }
+    }
+}

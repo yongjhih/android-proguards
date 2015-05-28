@@ -27,3 +27,8 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+build/
+.gradle/
+
+.apt_generated/
