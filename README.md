@@ -1,8 +1,9 @@
 # proguard-snippets
 
-[![Join the chat at https://gitter.im/yongjhih/proguard-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ![JitPack](https://img.shields.io/github/tag/yongjhih/proguard-snippets.svg?label=JitPack)
+[![Download](https://api.bintray.com/packages/yongjhih/maven/proguard-snippets/images/download.svg) ](https://bintray.com/yongjhih/maven/proguard-snippets/_latestVersion)
+[![Build Status](https://travis-ci.org/yongjhih/proguard-snippets.svg)](https://travis-ci.org/yongjhih/proguard-snippets)
+[![Join the chat at https://gitter.im/yongjhih/proguard-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Easy to apply proguard configurations for common Android libraries by AAR.
 
