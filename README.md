@@ -1,5 +1,7 @@
 # proguard-snippets
 
+![JitPack](https://img.shields.io/github/tag/yongjhih/proguard-snippets.svg?label=JitPack)
+
 Easy to apply proguard configurations for common Android libraries by AAR.
 
 [![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
