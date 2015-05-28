@@ -45,7 +45,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             resValue "string", "parse_app_id", "2q1WWZdKmgjuhGAbt1Dfvu89Y1SDM6TlHvRgeQXd"
             resValue "string", "parse_client_key", "k6jG6j2K6brMgHdWov8MPyhLMkjOFouzbBdqO09k"
@@ -76,4 +76,6 @@ dependencies {
     compile 'com.jakewharton:butterknife:6.1.0'
     //compile 'com.jakewharton.timber:timber:2.5.1'
     compile 'com.facebook.fresco:fresco:0.4.0'
+
+    compile project(':proguard-snippets')
 }
