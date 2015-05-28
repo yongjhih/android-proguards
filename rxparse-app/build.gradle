@@ -4,7 +4,6 @@ buildscript {
     }
 
     dependencies {
-        classpath 'me.tatarka:gradle-retrolambda:2.5.0'
         classpath 'com.android.tools.build:gradle:1.1.2'
         classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.+'
     }
@@ -18,13 +17,6 @@ repositories {
 
 apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
-
-retrolambda {
-    jdk System.getenv("JAVA8_HOME")
-    oldJdk System.getenv("JAVA7_HOME")
-    javaVersion JavaVersion.VERSION_1_7
-}
 
 android {
     compileSdkVersion 22
