@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <color name="colorPrimary">@color/colorMaterialDesignBlue</color>
+    <color name="colorPrimaryDark">@color/colorMaterialDesignBlue</color>
+    <color name="colorAccent">@color/colorMaterialDesignBlue</color>
+
+    <color name="colorMaterialDesignTeal500">#26A69A</color>
+    <color name="colorMaterialDesignCyan">#00BCD4</color>
+    <color name="colorMaterialDesignBlue">#1976D2</color>
+</resources>

@@ -1,2 +1,3 @@
 include ':proguard-snippets'
 include ':proguard-snippets-app'
+include ':rxparse-app'
