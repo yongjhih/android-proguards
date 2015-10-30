@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/yongjhih/proguard-snippets.svg)](https://travis-ci.org/yongjhih/proguard-snippets)
 [![Join the chat at https://gitter.im/yongjhih/proguard-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Easy to apply proguard configurations for common Android libraries by AAR.
+Use one line to apply almost famous libraries of proguard configurations.
 
 [![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
 
