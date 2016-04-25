@@ -38,6 +38,10 @@ dependencies {
 }
 ```
 
+## TODO
+
+* Independent progurad as aar module for each library
+
 ## See Also
 
 * [krschultz/android-proguard-snippets](https://github.com/krschultz/android-proguard-snippets)
