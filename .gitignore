@@ -32,3 +32,6 @@ build/
 .gradle/
 
 .apt_generated/
+
+# mac ds store file
+.DS_Store

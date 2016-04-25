@@ -1,5 +1,7 @@
 #Icepick
 
 -dontwarn icepick.**
--keep class **$$Icicle { *; }
--keepnames class * { @icepick.Icicle *;}
+-keep class **$$Icepick { *; }
+-keepclasseswithmembernames class * {
+    @icepick.* <fields>;
+}

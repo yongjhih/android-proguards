@@ -47,17 +47,21 @@ dependencies {
 * [ACRA 4.5.0](https://github.com/ACRA/acra)
 * [ActionBarSherlock 4.4.0](http://actionbarsherlock.com/)
 * [ActiveAndroid](http://www.activeandroid.com/)
+* [Adjust](https://github.com/adjust/android_sdk)
 * [Amazon Web Services 1.6.x / 1.7.x](https://aws.amazon.com/releasenotes/Android/1855915734308772)
 * [Amazon Web Services 2.1.x](https://github.com/aws/aws-sdk-android)
 * [AndroidAnnotations](http://androidannotations.org/)
 * [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 * [Apache Avro](http://http://avro.apache.org/)
+* [Alibaba Fastjson](https://github.com/alibaba/fastjson)
 * [Butterknife 5.1.2](http://jakewharton.github.io/butterknife/)
-* [Crashlytics 1.+](http://try.crashlytics.com/sdk-android/)
+* [Crashlytics 1.+ / 2.+](http://try.crashlytics.com/sdk-android/)
 * [Crittercism](http://docs.crittercism.com/android/android.html)
 * [EventBus 2.0.2](https://github.com/greenrobot/EventBus)
 * [Facebook 3.2.0](https://developers.facebook.com/docs/android/)
 * [Facebook Conceal](https://facebook.github.io/conceal/)
+* [Facebook Stetho](https://facebook.github.io/stetho/)
+* [Facebook Fresco](https://github.com/facebook/fresco)
 * [Flurry 3.4.0](http://support.flurry.com/index.php?title=Analytics/Code/ReleaseNotes/Android)
 * [Google Analytics 3.0+](https://developers.google.com/analytics/devguides/collection/android/v3/)
 * [Google Guava](https://code.google.com/p/guava-libraries/)
@@ -67,23 +71,43 @@ dependencies {
 * [Jackson 2.x](http://wiki.fasterxml.com/JacksonHome)
 * [Joda-Convert 1.6](http://www.joda.org/joda-convert/)
 * [Joda-Time 2.3](http://www.joda.org/joda-time/)
+* [Jsoup](http://jsoup.org/)
+* [LoganSquare](https://github.com/bluelinelabs/LoganSquare)
 * [New Relic](https://docs.newrelic.com/docs/mobile-monitoring/mobile-sdk-api/new-relic-mobile-sdk-api/working-android-sdk-api)
 * [Parse](https://parse.com/products/android)
 * [Realm](http://realm.io/news/realm-for-android/)
 * [RxJava 0.21](https://github.com/ReactiveX/RxJava/wiki/The-RxJava-Android-Module)
+* [RxJava-Promises](https://github.com/darylteo/rxjava-promises)
 * [Support Library v7](https://developer.android.com/tools/support-library/features.html#v7-appcompat)
 * [Sqlite](http://www.sqlite.org/index.html)
+* [Square Dagger](https://github.com/square/dagger)
 * [Square OkHttp](http://square.github.io/okhttp/)
 * [Square Okio](https://github.com/square/okio)
 * [Square Otto](http://square.github.io/otto/)
 * [Square Picasso](https://github.com/square/picasso)
 * [Square Retrofit](http://square.github.io/retrofit/)
 * [Square Wire](https://github.com/square/wire)
+* [SVG Android](https://github.com/pents90/svg-android)
 * [Icepick](https://github.com/frankiesardo/icepick)
 
 ## Credit
 
 * Krschultz: [krschultz/android-proguard-snippets](https://github.com/krschultz/android-proguard-snippets)
+* [Simple-Xml](http://simple.sourceforge.net/)
+* [Tencent Bugly](http://bugly.qq.com/)
+
+
+### ProGuard tip for android libraries developers
+
+The android libraries developers can include the proguard directives in the libraries. The Android Plugin for Gradle automatically appends ProGuard configuration files in an AAR (Android ARchive) package and appends that package to your ProGuard configuration
+
+The developers only need to specify the Proguard file with `consumerProguardFiles` instead of `proguardFiles`:
+
+```
+defaultConfig {
+    consumerProguardFiles 'proguard-file.pro'
+}
+```
 
 ## License
 
@@ -102,4 +126,4 @@ dependencies {
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-```
+
