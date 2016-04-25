@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+proguard_file="$1"
+proguard_filename="${proguard_file##*/}"
+proguard_filename_main="${proguard_filename%*.pro}"
+
+echo $proguard_filename_main
+package_name=`echo "$proguard_filename_main" | sed 's/-/_/g'`
+package_name="proguard.${package_name}"
+echo $package_name
