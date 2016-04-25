@@ -5,7 +5,9 @@
 [![Build Status](https://travis-ci.org/yongjhih/proguard-snippets.svg)](https://travis-ci.org/yongjhih/proguard-snippets)
 [![Join the chat at https://gitter.im/yongjhih/proguard-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Use one line to apply almost famous libraries of proguard configurations: `compile 'com.infstory:proguard-snippets:1.0.0'`
+Use one line to apply almost famous libraries of proguard configurations:
+
+`compile 'com.infstory:proguard-snippets:1.0.0'`
 
 [![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
 
