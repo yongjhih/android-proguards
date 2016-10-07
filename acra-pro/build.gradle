@@ -1,0 +1,57 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.2'
+        classpath 'com.novoda:bintray-release:0.3.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+repositories {
+    jcenter()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.0"
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 21
+        consumerProguardFiles fileTree(dir: '.', include: '*.pro')
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+apply plugin: 'com.novoda.bintray-release'
+
+def getRepositoryUsername() {
+    return hasProperty('BINTRAY_USER') ? BINTRAY_USER : ""
+}
+
+def getRepositoryPassword() {
+    return hasProperty('BINTRAY_KEY') ? BINTRAY_KEY : ""
+}
+
+publish {
+    userOrg = 'yongjhih'
+    groupId = 'com.infstory'
+    artifactId = 'acra-pro'
+    publishVersion = '1.0.0'
+    desc = 'acra-pro'
+    website = 'https://github.com/yongjhih/proguard-snippets'
+    bintrayUser = getRepositoryUsername()
+    bintrayKey = getRepositoryPassword()
+    dryRun = false
+}
+
+apply plugin: 'com.github.dcendents.android-maven'
+apply from: 'javadoc.gradle'
