@@ -47,7 +47,7 @@ publish {
     artifactId = 'facebook-stetho'
     publishVersion = '2.0.0'
     desc = 'facebook-stetho'
-    website = 'https://github.com/yongjhih/proguard-snippets'
+    website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()
     dryRun = false

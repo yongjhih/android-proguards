@@ -47,7 +47,7 @@ publish {
     artifactId = 'aws-1.7'
     publishVersion = '2.0.0'
     desc = 'aws-1.7'
-    website = 'https://github.com/yongjhih/proguard-snippets'
+    website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()
     dryRun = false

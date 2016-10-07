@@ -1,13 +1,12 @@
-# proguard-snippets
+# android proguards
 
-![JitPack](https://img.shields.io/github/tag/yongjhih/proguard-snippets.svg?label=JitPack)
-[![Download](https://api.bintray.com/packages/yongjhih/maven/proguard-snippets/images/download.svg) ](https://bintray.com/yongjhih/maven/proguard-snippets/_latestVersion)
-[![Build Status](https://travis-ci.org/yongjhih/proguard-snippets.svg)](https://travis-ci.org/yongjhih/proguard-snippets)
-[![Join the chat at https://gitter.im/yongjhih/proguard-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yongjhih/proguard-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![JitPack](https://img.shields.io/github/tag/yongjhih/android-proguards.svg?label=JitPack)
+[![Download](https://api.bintray.com/packages/yongjhih/maven/android-proguards/images/download.svg) ](https://bintray.com/yongjhih/maven/android-proguards/_latestVersion)
+[![Build Status](https://travis-ci.org/yongjhih/android-proguards.svg)](https://travis-ci.org/yongjhih/android-proguards)
 
 Use one line to apply almost famous libraries of proguard configurations:
 
-`compile 'com.infstory:proguard-snippets:1.0.0'`
+`compile 'com.infstory:android-proguards:2.0.0'`
 
 [![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
 
@@ -22,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.infstory:proguard-snippets:1.0.0'
+    compile 'com.infstory:android-proguards:2.0.0'
 }
 ```
 
@@ -36,7 +35,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.yongjhih:proguard-snippets:1.0.0'
+    compile 'com.github.yongjhih:android-proguards:2.0.0'
 }
 ```
 

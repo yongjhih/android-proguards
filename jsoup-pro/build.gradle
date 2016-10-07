@@ -47,7 +47,7 @@ publish {
     artifactId = 'jsoup'
     publishVersion = '2.0.0'
     desc = 'jsoup'
-    website = 'https://github.com/yongjhih/proguard-snippets'
+    website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()
     dryRun = false

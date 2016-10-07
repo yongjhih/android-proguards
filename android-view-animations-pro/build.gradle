@@ -47,7 +47,7 @@ publish {
     artifactId = 'android-view-animations'
     publishVersion = '2.0.0'
     desc = 'android-view-animations'
-    website = 'https://github.com/yongjhih/proguard-snippets'
+    website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()
     dryRun = false

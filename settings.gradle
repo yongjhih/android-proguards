@@ -1,5 +1,5 @@
-include ':proguard-snippets'
-include ':proguard-snippets-app'
+include ':android-proguards'
+include ':android-proguards-app'
 include ':acra-pro'
 include ':acra-pro-app'
 include ':action-bar-sherlock-pro'

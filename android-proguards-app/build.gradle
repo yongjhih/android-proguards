@@ -22,7 +22,7 @@ dependencies {
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
     compile 'ch.acra:acra:4.5.0'
     compile 'de.greenrobot:eventbus:2.0.2'
-    compile project(':proguard-snippets')
+    compile project(':android-proguards')
 }
 
 android {

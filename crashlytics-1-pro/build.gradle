@@ -47,7 +47,7 @@ publish {
     artifactId = 'crashlytics-1'
     publishVersion = '2.0.0'
     desc = 'crashlytics-1'
-    website = 'https://github.com/yongjhih/proguard-snippets'
+    website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()
     dryRun = false

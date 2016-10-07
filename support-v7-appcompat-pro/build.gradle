@@ -47,7 +47,7 @@ publish {
     artifactId = 'support-v7-appcompat'
     publishVersion = '2.0.0'
     desc = 'support-v7-appcompat'
-    website = 'https://github.com/yongjhih/proguard-snippets'
+    website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()
     dryRun = false
