@@ -35,7 +35,22 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.yongjhih:android-proguards:2.0.0'
+    compile 'com.github.yongjhih:android-proguards:-SNAPSHOT'
+}
+```
+
+Specify RxJava proguard rules:
+
+```
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compile 'io.reactivex:rxjava:1.2.1'
+    compile 'com.github.yongjhih.android-proguards:rxjava:-SNAPSHOT'
 }
 ```
 
@@ -101,18 +116,6 @@ dependencies {
 * [Simple-Xml](http://simple.sourceforge.net/)
 * [Tencent Bugly](http://bugly.qq.com/)
 
-
-### ProGuard tip for android libraries developers
-
-The android libraries developers can include the proguard directives in the libraries. The Android Plugin for Gradle automatically appends ProGuard configuration files in an AAR (Android ARchive) package and appends that package to your ProGuard configuration
-
-The developers only need to specify the Proguard file with `consumerProguardFiles` instead of `proguardFiles`:
-
-```
-defaultConfig {
-    consumerProguardFiles 'proguard-file.pro'
-}
-```
 
 ## License
 
