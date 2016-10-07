@@ -44,9 +44,9 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'acra-pro'
+    artifactId = 'tencent-bugly'
     publishVersion = '2.0.0'
-    desc = 'acra-pro'
+    desc = 'tencent-bugly'
     website = 'https://github.com/yongjhih/proguard-snippets'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()

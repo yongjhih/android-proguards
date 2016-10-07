@@ -1,0 +1,2 @@
+-keep class com.daimajia.easing.** { *; }
+-keep class com.daimajia.androidanimations.** { *; }

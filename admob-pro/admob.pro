@@ -1,0 +1,2 @@
+-keep class com.google.ads.** # Don't proguard AdMob classes
+-dontwarn com.google.ads.**
