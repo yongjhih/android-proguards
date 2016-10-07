@@ -6,7 +6,7 @@
 
 Use one line to apply almost famous libraries of proguard configurations:
 
-`compile 'com.infstory:android-proguards:2.0.0'`
+`compile 'com.infstory:proguard-snippets:1.0.0'`
 
 [![proguard-snippets.png](art/proguard-snippets.png)](art/proguard-snippets.png)
 
@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.infstory:android-proguards:2.0.0'
+    compile 'com.infstory:proguard-snippets:1.0.0'
 }
 ```
 
