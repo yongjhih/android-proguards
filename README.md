@@ -1,7 +1,7 @@
 # android proguards
 
-![JitPack](https://img.shields.io/github/tag/yongjhih/android-proguards.svg?label=JitPack)
-[![Download](https://api.bintray.com/packages/yongjhih/maven/android-proguards/images/download.svg) ](https://bintray.com/yongjhih/maven/android-proguards/_latestVersion)
+[![JitPack](https://img.shields.io/github/tag/yongjhih/android-proguards.svg?label=JitPack)](https://jitpack.io/#yongjhih/android-proguards)
+[![Download](https://api.bintray.com/packages/yongjhih/maven/android-proguards/images/download.svg)](https://bintray.com/yongjhih/maven/android-proguards/_latestVersion)
 [![Build Status](https://travis-ci.org/yongjhih/android-proguards.svg)](https://travis-ci.org/yongjhih/android-proguards)
 
 Use one line to apply almost famous libraries of proguard configurations:
