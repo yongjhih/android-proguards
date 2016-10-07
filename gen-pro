@@ -8,4 +8,4 @@ cp "$pro" ${pro_name}-pro/
 rm ${pro_name}-pro/acra.pro
 pkg=`echo ${pro_name} | sed 's/-/./g'`
 sed -i "s/acra/${pkg}/" ${pro_name}-pro/src/main/AndroidManifest.xml
-sed -i "s/acra-pro/${pro_name-pro}/" ${pro_name}-pro/build.gradle
+sed -i "s/acra-pro/${pro_name}-pro/" ${pro_name}-pro/build.gradle
