@@ -18,7 +18,7 @@ repositories {
 dependencies {
     compile 'ch.acra:acra:4.5.0'
     compile project(':acra-pro')
-    //compile 'com.github.yongjhih.proguard-snippets:acra-pro:2.0.0'
+    //compile 'com.github.yongjhih.android-proguards:acra-pro:2.0.0'
 }
 
 android {
