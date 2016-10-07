@@ -44,7 +44,7 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'androidquery'
+    artifactId = 'androidquery-pro'
     publishVersion = '2.0.0'
     desc = 'androidquery'
     website = 'https://github.com/yongjhih/android-proguards'

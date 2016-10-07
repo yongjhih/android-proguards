@@ -44,7 +44,7 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'rxjava-promises'
+    artifactId = 'rxjava-promises-pro'
     publishVersion = '2.0.0'
     desc = 'rxjava-promises'
     website = 'https://github.com/yongjhih/android-proguards'

@@ -44,7 +44,7 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'alibaba-fastjson'
+    artifactId = 'alibaba-fastjson-pro'
     publishVersion = '2.0.0'
     desc = 'alibaba-fastjson'
     website = 'https://github.com/yongjhih/android-proguards'

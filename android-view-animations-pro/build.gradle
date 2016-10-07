@@ -44,7 +44,7 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'android-view-animations'
+    artifactId = 'android-view-animations-pro'
     publishVersion = '2.0.0'
     desc = 'android-view-animations'
     website = 'https://github.com/yongjhih/android-proguards'

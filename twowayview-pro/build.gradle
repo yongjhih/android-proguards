@@ -44,7 +44,7 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'twowayview'
+    artifactId = 'twowayview-pro'
     publishVersion = '2.0.0'
     desc = 'twowayview'
     website = 'https://github.com/yongjhih/android-proguards'

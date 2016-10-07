@@ -44,7 +44,7 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'simple-parse'
+    artifactId = 'simple-parse-pro'
     publishVersion = '2.0.0'
     desc = 'simple-parse'
     website = 'https://github.com/yongjhih/android-proguards'
