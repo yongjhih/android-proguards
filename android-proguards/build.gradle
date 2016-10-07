@@ -5,6 +5,8 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.novoda:bintray-release:0.3.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
     }
 }
 
@@ -29,4 +31,27 @@ dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
-apply from: 'mvn-push.gradle'
+apply plugin: 'com.novoda.bintray-release'
+
+def getRepositoryUsername() {
+    return hasProperty('BINTRAY_USER') ? BINTRAY_USER : ""
+}
+
+def getRepositoryPassword() {
+    return hasProperty('BINTRAY_KEY') ? BINTRAY_KEY : ""
+}
+
+publish {
+    userOrg = 'yongjhih'
+    groupId = 'com.infstory'
+    artifactId = 'android-proguards'
+    publishVersion = '2.0.0'
+    desc = 'android-proguards'
+    website = 'https://github.com/yongjhih/android-proguards'
+    bintrayUser = getRepositoryUsername()
+    bintrayKey = getRepositoryPassword()
+    dryRun = false
+}
+
+apply plugin: 'com.github.dcendents.android-maven'
+apply from: 'javadoc.gradle'
