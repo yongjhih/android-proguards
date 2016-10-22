@@ -50,7 +50,7 @@ repositories {
 
 dependencies {
     compile 'io.reactivex:rxjava:1.2.1'
-    compile 'com.github.yongjhih.android-proguards:rxjava:-SNAPSHOT'
+    compile 'com.github.yongjhih.android-proguards:rxjava-pro:-SNAPSHOT'
 }
 ```
 
