@@ -2,6 +2,7 @@
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android--proguards-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4600)
 [![JitPack](https://img.shields.io/github/tag/yongjhih/android-proguards.svg?label=JitPack)](https://jitpack.io/#yongjhih/android-proguards)
+[![Build Status](https://travis-ci.org/yongjhih/android-proguards.svg)](https://travis-ci.org/yongjhih/android-proguards)
 
 Use one line to apply almost famous libraries of proguard configurations:
 
