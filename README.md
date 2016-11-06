@@ -110,13 +110,12 @@ dependencies {
 * [Square Wire](https://github.com/square/wire)
 * [SVG Android](https://github.com/pents90/svg-android)
 * [Icepick](https://github.com/frankiesardo/icepick)
+* [Simple-Xml](http://simple.sourceforge.net/)
+* [Tencent Bugly](http://bugly.qq.com/)
 
 ## Credit
 
 * Krschultz: [krschultz/android-proguard-snippets](https://github.com/krschultz/android-proguard-snippets)
-* [Simple-Xml](http://simple.sourceforge.net/)
-* [Tencent Bugly](http://bugly.qq.com/)
-
 
 ## License
 
