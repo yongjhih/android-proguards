@@ -42,7 +42,7 @@ dependencies {
 
 Specify RxJava proguard rules:
 
-```
+```gradle
 repositories {
     maven {
         url "https://jitpack.io"
