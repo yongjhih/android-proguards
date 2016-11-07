@@ -57,7 +57,7 @@ dependencies {
 
 ## Details
 
-Pack proguard rules as `proguard.txt` into AAR with [`consumerProguardFiles`](https://github.com/yongjhih/android-proguards/blob/master/rxjava-pro/build.gradle#L26) android-gradle (0.5.7+) directive.
+Pack proguard rules as `proguard.txt` into AAR with [`consumerProguardFiles`](https://github.com/yongjhih/android-proguards/blob/master/rxjava-pro/build.gradle#L26) android-gradle ([0.5.7+](http://tools.android.com/tech-docs/new-build-system)) directive.
 
 ```sh
 wget https://bintray.com/yongjhih/maven/download_file?file_path=com%2Finfstory%2Fproguard-snippets%2F1.0.0%2Fproguard-snippets-1.0.0.aar
