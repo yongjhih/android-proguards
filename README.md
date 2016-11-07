@@ -22,7 +22,6 @@ Via jcenter
 ```gradle
 repositories {
     jcenter()
-
 }
 
 dependencies {
@@ -34,9 +33,8 @@ Or via jitpack.io
 
 ```gradle
 repositories {
-    maven {
-        url "https://jitpack.io"
-    }
+    jcenter()
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
@@ -48,9 +46,8 @@ Specify RxJava proguard rules:
 
 ```gradle
 repositories {
-    maven {
-        url "https://jitpack.io"
-    }
+    jcenter()
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
