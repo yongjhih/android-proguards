@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
-pro=${1}
-pro_name=${1##*/}
-pro_name=${pro_name%.pro}
+[ ! "$1" ] && echo "$0 <name>"
+pro="${1}"
+pro_name="${1##*/}"
+pro_name="${pro_name%.pro}"
 cp -a acra-pro "${pro_name}-pro"
 cp "$pro" ${pro_name}-pro/
 rm ${pro_name}-pro/acra.pro
