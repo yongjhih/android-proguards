@@ -110,6 +110,13 @@ dependencies {
     compile project(':twowayview-pro')
     compile project(':wire-pro')
     compile project(':wizardroid-pro')
+    compile project(':google-gms-safetynet-pro')
+    compile project(':google-gms-pro')
+    compile project(':zendesk-pro')
+    compile project(':zendesk-chat-pro')
+    compile project(':auto-bundle-pro')
+    compile project(':webkit-pro')
+    compile project(':apache-http-legacy-pro')
 }
 
 apply plugin: 'com.novoda.bintray-release'

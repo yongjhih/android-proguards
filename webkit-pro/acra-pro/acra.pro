@@ -41,6 +41,3 @@
 # Keep the support library
 -keep class org.acra.** { *; }
 -keep interface org.acra.** { *; }
-
-# ref. https://github.com/ACRA/acra/issues/301
--dontwarn org.acra.**

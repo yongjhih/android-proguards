@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
-[ ! "$1" ] && echo "$0 <name>"
+[ ! "$1" ] && echo "$0 <name.pro>"
 pro="${1}"
 pro_name="${1##*/}"
 pro_name="${pro_name%.pro}"
 cp -a acra-pro "${pro_name}-pro"
 cp "$pro" ${pro_name}-pro/
-rm ${pro_name}-pro/acra.pro
+rm "${pro_name}-pro/acra.pro" > /dev/null 2>&1
 pkg=`echo ${pro_name} | sed 's/-/./g'`
 sed -i "s/acra/${pkg}/" ${pro_name}-pro/src/main/AndroidManifest.xml
 sed -i "s/acra-pro/${pro_name}-pro/" ${pro_name}-pro/build.gradle
+
+echo "settings.gradle: include project('${pro_name}-pro')"
+echo "android-proguards/build.grade: compile project('${pro_name}-pro')"
