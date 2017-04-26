@@ -199,17 +199,18 @@ You can find out `proguard.txt`.
 * [New Relic](https://docs.newrelic.com/docs/mobile-monitoring/mobile-sdk-api/new-relic-mobile-sdk-api/working-android-sdk-api)
 * [Parse](https://parse.com/products/android)
 * [Realm](http://realm.io/news/realm-for-android/)
-* [RxJava 0.21](https://github.com/ReactiveX/RxJava/wiki/The-RxJava-Android-Module)
+* [RxJava 0.21](https://github.com/ReactiveX/RxJava/wiki/The-RxJava-Android-Module): RxJava2+ no need anymore
 * [RxJava-Promises](https://github.com/darylteo/rxjava-promises)
-* [Support Library v7](https://developer.android.com/tools/support-library/features.html#v7-appcompat)
+* [Support Library v7](https://developer.android.com/tools/support-library/features.html#v7-appcompat): 23+ should already consumed
 * [Sqlite](http://www.sqlite.org/index.html)
 * [Square Dagger](https://github.com/square/dagger)
 * [Square OkHttp](http://square.github.io/okhttp/)
 * [Square Okio](https://github.com/square/okio)
 * [Square Otto](http://square.github.io/otto/)
 * [Square Picasso](https://github.com/square/picasso)
-* [Square Retrofit](http://square.github.io/retrofit/)
+* [Square Retrofit](http://square.github.io/retrofit/): Retrofit1 and Retrofit2
 * [Square Wire](https://github.com/square/wire)
+* [Square LeakCanary](https://github.com/square/leakcanary) 1.4+ already consumed
 * [SVG Android](https://github.com/pents90/svg-android)
 * [Icepick](https://github.com/frankiesardo/icepick)
 * [Simple-Xml](http://simple.sourceforge.net/)

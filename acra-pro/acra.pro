@@ -43,4 +43,6 @@
 -keep interface org.acra.** { *; }
 
 # ref. https://github.com/ACRA/acra/issues/301
--dontwarn org.acra.**
+#-dontwarn org.acra.**
+# Marshmallow removed Notification.setLatestEventInfo()
+-dontwarn android.app.Notification
