@@ -140,6 +140,13 @@ compile 'com.github.yongjhih.android-proguards:tencent-bugly-pro:-SNAPSHOT'
 compile 'com.github.yongjhih.android-proguards:twowayview-pro:-SNAPSHOT'
 compile 'com.github.yongjhih.android-proguards:wire-pro:-SNAPSHOT'
 compile 'com.github.yongjhih.android-proguards:wizardroid-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:google-gms-safetynet-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:google-gms-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:zendesk-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:zendesk-chat-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:auto-bundle-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:webkit-pro:-SNAPSHOT'
+compile 'com.github.yongjhih.android-proguards:apache-http-legacy-pro:-SNAPSHOT'
 ```
 
 ## Details
