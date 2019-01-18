@@ -117,6 +117,11 @@ dependencies {
     compile project(':auto-bundle-pro')
     compile project(':webkit-pro')
     compile project(':apache-http-legacy-pro')
+    compile project(':adv-webview-pro')
+    compile project(':aws-android-sdk-pro')
+    compile project(':shortcut-badger-pro')
+    compile project(':flexible-adapter-pro')
+    compile project(':netsecurity-pro')
 }
 
 apply plugin: 'com.novoda.bintray-release'

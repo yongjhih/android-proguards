@@ -11,5 +11,6 @@ pkg=`echo ${pro_name} | sed 's/-/./g'`
 sed -i "s/acra/${pkg}/" ${pro_name}-pro/src/main/AndroidManifest.xml
 sed -i "s/acra-pro/${pro_name}-pro/" ${pro_name}-pro/build.gradle
 
-echo "settings.gradle: include project('${pro_name}-pro')"
-echo "android-proguards/build.grade: compile project('${pro_name}-pro')"
+echo "settings.gradle: include ':${pro_name}-pro'"
+echo "include ':${pro_name}-pro'" >> settings.gradle
+echo "android-proguards/build.gradle: compile project(':${pro_name}-pro')"
