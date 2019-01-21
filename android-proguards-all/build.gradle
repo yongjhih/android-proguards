@@ -138,9 +138,9 @@ def getRepositoryPassword() {
 publish {
     userOrg = 'yongjhih'
     groupId = 'com.infstory'
-    artifactId = 'android-proguards'
+    artifactId = 'android-proguards-all'
     publishVersion = '2.0.0'
-    desc = 'android-proguards'
+    desc = 'All android-proguards'
     website = 'https://github.com/yongjhih/android-proguards'
     bintrayUser = getRepositoryUsername()
     bintrayKey = getRepositoryPassword()

@@ -1,7 +1,7 @@
 include ':app'
 include ':bypass'
 project(':bypass').projectDir = new File(rootDir, 'third_party/bypass')
-include ':android-proguards'
+include ':android-proguards-all'
 include ':android-proguards-app'
 include ':acra-pro'
 include ':acra-pro-app'

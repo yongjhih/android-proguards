@@ -26,7 +26,7 @@ dependencies {
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
     implementation 'ch.acra:acra:4.5.0'
     implementation 'de.greenrobot:eventbus:2.0.2'
-    implementation project(':android-proguards')
+    implementation project(':android-proguards-all')
     //implementation 'com.github.yongjhih:android-proguards:android-proguards:2.0.0'
 }
 

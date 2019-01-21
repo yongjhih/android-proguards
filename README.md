@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.yongjhih.android-proguards:android-proguards:-SNAPSHOT'
+    compile 'com.github.yongjhih.android-proguards:android-proguards-all:-SNAPSHOT'
 }
 ```
 
