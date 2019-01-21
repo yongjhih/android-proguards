@@ -29,6 +29,5 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs').getFiles().toArray()
     implementation 'com.android.support:support-annotations:25.0.0'
 }

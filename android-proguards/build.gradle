@@ -29,7 +29,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: '*.jar').getFiles().toArray()
     implementation project(':acra-pro')
     implementation project(':action-bar-sherlock-pro')
     implementation project(':activeandroid-pro')

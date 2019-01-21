@@ -29,7 +29,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: '*.jar').getFiles().toArray()
 }
 
 apply plugin: 'com.novoda.bintray-release'
