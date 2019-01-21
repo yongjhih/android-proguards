@@ -1,39 +1,40 @@
 buildscript {
     repositories {
+        google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 
 apply plugin: 'com.android.application'
 
 repositories {
+    google()
     jcenter()
     maven { url "https://jitpack.io" }
 }
 
 dependencies {
-    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar' // minSdkVersion 7
-    compile 'com.android.support:support-v4:18.0.+'
-    compile 'com.google.android.gms:play-services:3.2.+' // minSdkVersion 8
-    compile 'com.google.code.gson:gson:2.2.4'
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
-    compile 'ch.acra:acra:4.5.0'
-    compile 'de.greenrobot:eventbus:2.0.2'
-    compile project(':android-proguards')
-    //compile 'com.github.yongjhih:android-proguards:android-proguards:2.0.0'
+    implementation 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar' // minSdkVersion 7
+    implementation 'com.android.support:support-v4:18.0.+'
+    implementation 'com.google.android.gms:play-services:3.2.+' // minSdkVersion 8
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
+    implementation 'ch.acra:acra:4.5.0'
+    implementation 'de.greenrobot:eventbus:2.0.2'
+    implementation project(':android-proguards')
+    //implementation 'com.github.yongjhih:android-proguards:android-proguards:2.0.0'
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 25
+        targetSdkVersion 28
     }
 
     buildTypes {
