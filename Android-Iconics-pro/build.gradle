@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+repositories {
+    google()
+    jcenter()
+}
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 28
+        consumerProguardFiles fileTree(dir: '.', include: '*.pro').getFiles().toArray()
+    }
+}
+
+dependencies {
+}
+
+apply plugin: 'com.github.dcendents.android-maven'
+apply from: 'javadoc.gradle'

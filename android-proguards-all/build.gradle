@@ -123,6 +123,7 @@ dependencies {
     implementation project(':shortcut-badger-pro')
     implementation project(':flexible-adapter-pro')
     implementation project(':netsecurity-pro')
+    implementation project(':Android-Iconics-pro')
 }
 
 apply plugin: 'com.novoda.bintray-release'
